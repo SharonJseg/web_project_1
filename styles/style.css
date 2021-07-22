@@ -152,8 +152,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-inline-start: 0;
   row-gap: 60px;
+  padding: 0;
   margin: 0;
 }
 
@@ -268,8 +268,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-inline-start: 0;
   row-gap: 80px;
+  padding: 0;
   margin: 0;
   z-index: 1;
 }
@@ -342,7 +342,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
-  padding-inline-start: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -355,7 +355,7 @@
 }
 
 .footer__social-icons {
-  widows: 16px;
+  width: 16px;
   height: 16px;
   margin-right: 10px;
 }
