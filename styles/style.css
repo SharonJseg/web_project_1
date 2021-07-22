@@ -306,6 +306,70 @@ black #000
   margin: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: normal;
 }
-/* including elements with key-value modifiers */
+
+/*/////////// FOOTER STYLES ////////////*/
+
+.footer {
+  background-color: #000;
+  min-height: 350px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  /* padding: 60px 0 40px 0; */
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__list {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__social-icons {
+  widows: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
