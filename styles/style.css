@@ -134,6 +134,68 @@ black #000
   font-weight: bold;
 }
 
+/*/////////// DIGITS STYLES ////////////*/
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  width: 60%;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  width: 60%;
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+.table {
+  width: 1110px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-inline-start: 0;
+  row-gap: 60px;
+  margin: 0;
+}
+
+.table__cell {
+  width: 250px;
+  list-style: none;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin: 20px 0 0 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text-span-accent {
+  display: inline-block;
+  margin-top: 20px;
+}
+
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
