@@ -92,8 +92,8 @@ black #000
 
 .description {
   display: flex;
-  /* min-height: 400px; */
   justify-content: center;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -140,6 +140,7 @@ black #000
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px 0;
 }
 
 .section-title {
@@ -246,6 +247,7 @@ black #000
   position: relative;
   overflow: hidden;
   color: #fff;
+  padding: 90px 0;
 }
 
 .kaufman__triangle {
@@ -317,7 +319,7 @@ black #000
   color: #fff;
   display: flex;
   justify-content: center;
-  /* padding: 60px 0 40px 0; */
+  padding: 60px 0 40px 0;
 }
 
 .footer__columns {
