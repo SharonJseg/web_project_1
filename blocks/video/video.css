@@ -1,0 +1,7 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  background: linear-gradient(#fff 0% 75%, #f2f2f2 75% 100%);
+}
