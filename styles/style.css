@@ -212,6 +212,88 @@
   column-gap: 20px;
 }
 
+/*/ ///////// OAKLEY ///////////*/
+
+.oakley {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+/*/ ////////// KAHN ///////////*/
+
+.khan {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding-top: 105px;
+}
+
+.khan__container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.khan_author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+  margin: 50px 0 36px 0;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 68px 0;
+}
+
+.khan__book-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: 608px;
+}
+
+.khan__book-pic {
+  width: 620px;
+  align-self: baseline;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 /*/ ////////////////////////*/
 
 .table {
@@ -250,7 +332,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 80px;
   position: relative;
 }
 
