@@ -192,7 +192,27 @@
   font-weight: normal;
   margin: 0;
 }
-/*/ //////////////////////////////*/
+
+/*/ ////////// VIDEO STYLES ///////////*/
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  background: linear-gradient(#fff 0% 75%, #f2f2f2 75% 100%);
+}
+
+.video__iframes {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  column-gap: 20px;
+}
+
+/*/ ////////////////////////*/
 
 .table {
   width: 1110px;
