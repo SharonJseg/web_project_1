@@ -1,7 +1,5 @@
-.techniques {
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px auto;
-  max-width: 1600px;
 }

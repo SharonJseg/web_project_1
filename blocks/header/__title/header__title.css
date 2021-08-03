@@ -2,8 +2,10 @@
   align-self: center;
   max-width: 730px;
   margin: 0 0 0 64px;
-  line-height: 96px;
+  line-height: 0.942;
   font-size: 102px;
   font-weight: bold;
   z-index: 2;
+  grid-column: 1;
+  grid-row: 2 / 3;
 }
