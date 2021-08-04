@@ -3,19 +3,27 @@
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  max-width: 60%;
+  max-width: 70%;
   margin: 0;
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 510px) {
   .section-title {
-    font-size: 50px;
-    max-width: 100%;
+    max-width: 80%;
+    font-size: 60px;
   }
 }
+@media screen and (max-width: 425px) {
+  .section-title {
+    max-width: 80%;
+    font-size: 50px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .section-title {
+    max-width: 80%;
     font-size: 40px;
   }
 }

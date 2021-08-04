@@ -5,12 +5,6 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
-  .two-columns {
-    margin: 0 64px;
-  }
-}
-
 @media screen and (max-width: 600px) {
   .two-columns {
     flex-direction: column;
@@ -20,6 +14,6 @@
 
 @media screen and (max-width: 425px) {
   .two-columns {
-    margin: 0 30px;
+    /* margin: 0 30px; */
   }
 }

@@ -19,6 +19,12 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .header__subtitle {
+    margin: 0 0 30px 35px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .header__subtitle {
     background-color: rgba(242, 242, 242, 0.8);
@@ -29,7 +35,6 @@
 
 @media screen and (max-width: 320px) {
   .header__subtitle {
-    background-color: rgba(242, 242, 242, 0.8);
     margin: 0 15px 64px;
   }
 }

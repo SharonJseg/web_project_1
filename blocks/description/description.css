@@ -8,6 +8,18 @@
 
 @media screen and (max-width: 1280px) {
   .description {
-    max-width: 1024px;
+    margin: 100px 58px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .description {
+    margin: 50px 35px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .description {
+    margin: 50px 20px 0;
   }
 }
