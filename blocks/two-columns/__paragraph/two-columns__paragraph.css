@@ -8,3 +8,9 @@
 .two-columns__paragraph:not(:last-child) {
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 425px) {
+  .two-columns__paragraph {
+    font-size: 16px;
+  }
+}

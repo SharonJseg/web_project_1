@@ -4,3 +4,22 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .two-columns {
+    margin: 0 64px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .two-columns {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .two-columns {
+    margin: 0 30px;
+  }
+}

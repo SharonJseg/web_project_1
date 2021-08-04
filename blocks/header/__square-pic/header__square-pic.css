@@ -35,3 +35,12 @@
     top: 150px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header__square-pic {
+    min-height: 300px;
+    min-width: 300px;
+    right: -150px;
+    top: 0;
+  }
+}

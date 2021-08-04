@@ -6,3 +6,10 @@
   max-width: 60%;
   margin: 0;
 }
+
+@media screen and (max-width: 425px) {
+  .section-subtitle {
+    max-width: 80%;
+    font-size: 23px;
+  }
+}

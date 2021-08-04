@@ -4,3 +4,10 @@
   font-weight: normal;
   margin: 0;
 }
+
+@media screen and (max-width: 425px) {
+  .cards__description {
+    font-size: 16px;
+    max-width: 300px;
+  }
+}

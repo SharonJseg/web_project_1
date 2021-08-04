@@ -30,3 +30,10 @@
     margin-right: -140px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header__main-illustration {
+    width: 180%;
+    margin-right: -178px;
+  }
+}

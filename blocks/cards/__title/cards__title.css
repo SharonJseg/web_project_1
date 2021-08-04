@@ -4,3 +4,10 @@
   font-weight: bold;
   margin: 0 0 16px 0;
 }
+
+@media screen and (max-width: 425px) {
+  .cards__title {
+    font-size: 21px;
+    margin: 0 0 14px;
+  }
+}

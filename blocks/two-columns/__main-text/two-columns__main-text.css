@@ -2,3 +2,9 @@
   align-self: baseline;
   max-width: 80%;
 }
+
+@media screen and (max-width: 600px) {
+  .two-columns__main-text {
+    max-width: 100%;
+  }
+}
