@@ -8,4 +8,21 @@
   margin: 0 64px 32px;
   grid-column: 1;
   grid-row: 3 / 4;
+  background-color: none;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    background-color: rgba(242, 242, 242, 0.5);
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__subtitle {
+    background-color: rgba(242, 242, 242, 0.8);
+    margin: 0 30px 32px;
+    font-size: 16px;
+  }
 }

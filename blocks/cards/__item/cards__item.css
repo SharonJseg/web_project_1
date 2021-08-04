@@ -1,5 +1,5 @@
 .cards__item {
-  width: 240px;
+  max-width: 100%;
   list-style: none;
   display: flex;
   flex-direction: column;

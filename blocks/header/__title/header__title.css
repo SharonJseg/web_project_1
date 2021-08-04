@@ -9,3 +9,11 @@
   grid-column: 1;
   grid-row: 2 / 3;
 }
+
+@media screen and (max-width: 425px) {
+  .header__title {
+    font-size: 65px;
+    max-width: 395px;
+    margin: 0 0 0 30px;
+  }
+}
