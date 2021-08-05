@@ -1,3 +1,20 @@
 .khan__book-container {
   display: flex;
+  max-width: 620px;
+  max-height: 608px;
+}
+
+@media screen and (max-width: 1024px) {
+  .khan__book-container {
+    max-width: 550px;
+    max-height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .khan__book-container {
+    flex-direction: column;
+    max-width: 620px;
+    max-height: 608px;
+  }
 }

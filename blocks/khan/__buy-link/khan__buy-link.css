@@ -6,8 +6,22 @@
   color: #2f80ed;
   transition: opacity 0.3s ease-out;
   align-self: flex-start;
+  min-width: 180px;
 }
 
 .khan__buy-link:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+  .khan__buy-link {
+    min-width: 170px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .khan__buy-link {
+    order: 0;
+    margin: 0 0 30px;
+  }
 }
