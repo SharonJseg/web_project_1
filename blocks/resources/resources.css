@@ -2,5 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0 217px 0;
+  padding: 100px 0 217px;
+}
+
+@media screen and (max-width: 1024px) {
+  .resources {
+    padding: 100px 0 180px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .resources {
+    padding: 100px 0;
+  }
 }

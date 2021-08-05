@@ -3,3 +3,9 @@
   z-index: 1;
   padding-bottom: 80px;
 }
+
+@media screen and (max-width: 425px) {
+  .section-subtitle_theme_dark {
+    padding-bottom: 60px;
+  }
+}
