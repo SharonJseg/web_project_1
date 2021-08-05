@@ -24,6 +24,20 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .header__main-illustration {
+    width: 120%;
+    margin-right: -160px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .header__main-illustration {
+    width: 125%;
+    margin-right: -160px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .header__main-illustration {
     width: 130%;

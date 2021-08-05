@@ -4,3 +4,15 @@
   font-weight: bold;
   margin: 0 0 20px 0;
 }
+
+@media screen and (max-width: 600px) {
+  .footer__column-heading {
+    max-width: 160px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .footer__column-heading {
+    max-width: 240px;
+  }
+}
