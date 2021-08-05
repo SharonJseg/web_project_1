@@ -1,4 +1,9 @@
 .footer__column_content_social {
-  margin: 50px 0 0;
   order: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__column_content_social {
+    margin: 50px 0 0;
+  }
 }
